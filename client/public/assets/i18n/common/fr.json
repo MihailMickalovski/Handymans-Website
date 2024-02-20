@@ -1,0 +1,14 @@
+{
+    "appName": "Handyman's Website",
+    "taglinePart1": "LAISSEZ-LE NOUS",
+    "taglinePart2": "ET",
+    "taglinePart3": "PROFITEZ DE VOTRE JOURNÉE!",
+    "cancel": "Annuler",
+    "submit": "Soumettre",
+    "delete": "Supprimer",
+    "add": "Ajouter",
+    "edit": "Éditer",
+    "pageNotExistsTitle": "Cette page n'existe pas !",
+    "pageNotExistsMessage": "Désolé, la page que vous recherchez est introuvable.",
+    "visitHomeBtn": "Visitez la maison"
+}

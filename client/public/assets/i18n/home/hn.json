@@ -1,0 +1,12 @@
+{
+    "searchHandymanService": "अप्रेंटिस सेवा खोजें",
+    "price": "कीमत",
+    "availability": "उपलब्धता",
+    "deleteWarningTitle": "मेनू आइटम हटाएं?",
+    "deleteWarning": "इस मेनू आइटम को सूची से हटाने के लिए डिलीट बटन पर क्लिक करें। ऐसा करने से आइटम रिकॉर्ड से निकल जाएगा और बाद में उपलब्ध नहीं होगा!",
+    "noMenuFoundMessage": "उफ़! कोई मेनू आइटम नहीं मिला।",
+    "available": "उपलब्ध",
+    "notAvailable": "अनुपलब्ध",
+    "lowToHigh": "कम से उच्च",
+    "highToLow": "उच्च से कम"
+}

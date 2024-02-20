@@ -1,0 +1,10 @@
+{
+    "formTitleAdd": "Ajouter un élément de menu",
+    "formTitleEdit": "Modifier un élément de menu",
+    "formSubtitle": "Détails de l'article",
+    "itemName": "Nom de l'article",
+    "description": "La description",
+    "price": "Prix (₹)",
+    "images": "Images",
+    "name": "Nom"
+}

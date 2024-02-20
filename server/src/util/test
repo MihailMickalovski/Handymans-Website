@@ -1,0 +1,28 @@
+const { expect } = require('chai');
+const supertest = require('supertest');
+const app = require('./yourExpressApp'); // Import your Express app
+
+describe('isAdmin Middleware', () => {
+    it('should allow access for an admin user', (done) => {
+        // Mock a request with admin credentials
+        supertest(app)
+            .get('/some-protected-route')
+            .set('authorization', 'adminToken') // Replace with a valid admin token
+            .end((err, res) => {
+                expect(res.status).to.equal(200);
+                done();
+            });
+    });
+
+    it('should deny access for a non-admin user', (done) => {
+        // Mock a request with non-admin credentials
+        supertest(app)
+            .get('/some-protected-route')
+            .set('authorization', 'userToken') // Replace with a valid user token
+            .end((err, res) => {
+                expect(res.status).to.equal(401);
+                expect(res.body.message).to.equal('Not an admin');
+                done();
+            });
+    });
+});

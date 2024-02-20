@@ -1,0 +1,12 @@
+{
+    "searchHandymanService": "Rechercher un service de bricoleur",
+    "price": "Prix",
+    "availability": "Disponibilité",
+    "deleteWarningTitle": "Supprimer un élément de menu ?",
+    "deleteWarning": "Cliquez sur le bouton Supprimer pour supprimer cet élément de menu de la liste. Cela supprimera l'élément des enregistrements et ne sera plus disponible plus tard !",
+    "noMenuFoundMessage": "Oups! Aucun élément de menu trouvé.",
+    "available": "Disponible",
+    "notAvailable": "Pas disponible",
+    "lowToHigh": "De bas en haut",
+    "highToLow": "Haut en bas"
+}
